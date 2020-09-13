@@ -1,0 +1,25 @@
+{
+  "id": "3D6EC868-AA99-4FD1-B862-B7CEE1E3A903",
+  "name": "我的积分-积分列表返回一条数据",
+  "remark": "",
+  "data": {
+    "data": {
+      "recordList": [
+        {
+          "title": "自动发放_交易收款积分",
+          "date": "2020.02.04",
+          "amount": "+190积分"
+        }
+      ],
+      "pageSize": "20",
+      "pageNum": "2",
+      "totalPages": "1",
+      "total": "100",
+      "hasNextPage": "true/false"
+    },
+    "errorCode": "",
+    "errorMsg": "",
+    "success": true
+  },
+  "api": "6660992D-DB01-46DA-8A83-79E5434291E6"
+}

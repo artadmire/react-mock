@@ -1,0 +1,15 @@
+{
+  "id": "9E7DF2B1-EB58-4581-BF8D-276F8D6F6EA3",
+  "name": "商家分层运营第1期-我的积分-异常",
+  "remark": "",
+  "data": {
+    "success": false,
+    "data": {
+      "point": "8400",
+      "unit": "分"
+    },
+    "errorCode": "",
+    "errorMsg": ""
+  },
+  "api": "E27BB4E4-83E9-4643-8DF5-C11D8BDCCF9D"
+}

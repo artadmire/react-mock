@@ -1,0 +1,244 @@
+{
+  "id": "650A00BD-FF6B-42D3-AC85-5FDFD5386354",
+  "name": "商家分层运营第1期-获取商家等级信息",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": {
+      "widgetName": "商家分层CARD查询组件",
+      "scoreDisplay": "true",
+      "cards": [
+        {
+          "levelPic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*jA4rRr0h4wAAAAAAAAAAAABkARQnAQ",
+          "backgroundPic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*hGkvRaLYbMMAAAAAAAAAAABkARQnAQ",
+          "themeColor": "#0B3B80",
+          "updateTimeNotice": "等级更新时间为每月月初",
+          "levelTag": "已达成该等级",
+          "topRightNotice": "",
+          "levelStatus": "finished",
+          "finishedNotice": "超越该等级",
+          "level": "V0",
+          "curTaskNotice": "本月已收款",
+          "benefitGuide": {
+            "title": "当前等级已经解锁2项权益"
+          },
+          "targetScore": "2",
+          "taskNotice": "基础等级",
+          "skipTaskNotice": "下月将晋升至人气V1",
+          "nextLevelStatus": "unfinished",
+          "curScore": "80",
+          "diffTaskNotice": "差0笔晋升人气商家V1"
+        },
+        {
+          "levelPic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*53fET5Qi-P0AAAAAAAAAAABkARQnAQ",
+          "backgroundPic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*kdWzSbfiKsIAAAAAAAAAAABkARQnAQ",
+          "themeColor": "#803109",
+          "updateTimeNotice": "等级更新时间为每月月初",
+          "levelTag": "当前等级",
+          "topRightNotice": "超过本市45%商家",
+          "levelStatus": "skip",
+          "finishedNotice": "超越该等级",
+          "level": "V1",
+          "curTaskNotice": "本月已收款",
+          "benefitGuide": {
+            "title": "当前等级已经解锁1项权益"
+          },
+          "targetScore": "6",
+          "taskNotice": "需要收款笔数2笔",
+          "skipTaskNotice": "下月将晋升至人气V3",
+          "nextLevelStatus": "unfinished",
+          "curScore": "80",
+          "diffTaskNotice": "差0笔晋升人气商家V3"
+        },
+        {
+          "levelPic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*2Wr3RJwH2iwAAAAAAAAAAABkARQnAQ",
+          "backgroundPic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*9gn5TrnfMToAAAAAAAAAAABkARQnAQ",
+          "themeColor": "#47494d",
+          "updateTimeNotice": "等级更新时间为每月月初",
+          "levelTag": "未达成该等级",
+          "topRightNotice": "超过本市85%商家",
+          "levelStatus": "unfinished",
+          "finishedNotice": "超越该等级",
+          "level": "V2",
+          "curTaskNotice": "本月已收款",
+          "benefitGuide": {
+            "title": "当前等级已经解锁1项权益"
+          },
+          "targetScore": "6",
+          "taskNotice": "需要收款笔数4笔",
+          "skipTaskNotice": "下月将晋升至人气V3",
+          "nextLevelStatus": "unfinished",
+          "curScore": "80",
+          "diffTaskNotice": "差0笔晋升人气商家V3"
+        },
+        {
+          "levelPic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*g0CrSoJCub8AAAAAAAAAAABkARQnAQ",
+          "backgroundPic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*5NarQrUbH5sAAAAAAAAAAABkARQnAQ",
+          "themeColor": "#804f08",
+          "updateTimeNotice": "等级更新时间为每月月初",
+          "levelTag": "未达成该等级",
+          "topRightNotice": "超过本市99%商家",
+          "levelStatus": "unfinished",
+          "finishedNotice": "",
+          "level": "V3",
+          "curTaskNotice": "本月已收款",
+          "benefitGuide": {
+            "title": "当前等级已经解锁1项权益"
+          },
+          "targetScore": "6",
+          "nextTaskNotice": "下月可保级人气V3",
+          "skipTaskNotice": "",
+          "taskNotice": "需要收款笔数6笔",
+          "nextLevelStatus": "unfinished",
+          "curScore": "80",
+          "diffTaskNotice": "差0笔下月保持人气V3"
+        }
+      ],
+      "widgetCode": "MRCH_LEVEL_CARD",
+      "level": "V1",
+      "benefitMap": {
+        "V0": [
+          {
+            "amount": "30",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*ekn8Qr-0C_MAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "101",
+            "requiredLevel": "",
+            "subTitle": "收钱码安全险"
+          },
+          {
+            "amount": "30",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*ekn8Qr-0C_MAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "100",
+            "requiredLevel": "",
+            "subTitle": "收钱码安全险"
+          },
+          {
+            "amount": "50",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*qQJDSp-2oxQAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "99",
+            "requiredLevel": "V1",
+            "subTitle": "收钱码安全险"
+          },
+          {
+            "amount": "80",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*a4T1QKbYmiMAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "98",
+            "requiredLevel": "V2",
+            "subTitle": "收钱码安全险"
+          },
+          {
+            "amount": "100",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*MHn-Q7MUUW8AAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "97",
+            "requiredLevel": "V3",
+            "subTitle": "收钱码安全险"
+          }
+        ],
+        "V3": [
+          {
+            "amount": "100",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*DIv9QLETmkwAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "400",
+            "requiredLevel": "",
+            "subTitle": "收钱码安全险"
+          }
+        ],
+        "V2": [
+          {
+            "amount": "80",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*iFOoT4S8tQIAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "300",
+            "requiredLevel": "",
+            "subTitle": "收钱码安全险"
+          }
+        ],
+        "V1": [
+          {
+            "amount": "50",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*HOTDQb_EyikAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "200",
+            "requiredLevel": "",
+            "subTitle": "收钱码安全险"
+          },
+          {
+            "amount": "30",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*ekn8Qr-0C_MAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "100",
+            "requiredLevel": "",
+            "subTitle": "收钱码安全险"
+          },
+          {
+            "amount": "50",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*qQJDSp-2oxQAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "99",
+            "requiredLevel": "V1",
+            "subTitle": "收钱码安全险"
+          },
+          {
+            "amount": "80",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*a4T1QKbYmiMAAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "98",
+            "requiredLevel": "V2",
+            "subTitle": "收钱码安全险"
+          },
+          {
+            "amount": "100",
+            "unit": "万",
+            "style": "pic",
+            "pic": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*MHn-Q7MUUW8AAAAAAAAAAABkARQnAQ",
+            "clickUrl": "alipays://platformapi/startapp?appId=77700142&chInfo=RQSJ",
+            "title": "敢收敢赔",
+            "priority": "97",
+            "requiredLevel": "V3",
+            "subTitle": "收钱码安全险"
+          }
+        ]
+      }
+    }
+  },
+  "api": "C0EF4F63-FC55-4801-A643-A157CBD29D72"
+}

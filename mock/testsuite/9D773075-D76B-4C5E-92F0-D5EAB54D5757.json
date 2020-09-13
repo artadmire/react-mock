@@ -1,0 +1,35 @@
+{
+  "id": "9D773075-D76B-4C5E-92F0-D5EAB54D5757",
+  "name": "商家分层运营第1期-积分兑换",
+  "remark": "",
+  "apis": [
+    "E61AE3F6-43CF-449E-AC54-0090309591B2",
+    "90C6AF5A-4B58-4749-BEDF-B2FF6EE9EED8"
+  ],
+  "apiDataRules": [
+    "70C96423-E945-42D7-BEED-E1513CF14861",
+    "ACB0BB07-7EF2-4B59-ABF7-8CEFD1826B64"
+  ],
+  "onActive": null,
+  "onDeactive": null,
+  "isDefault": true,
+  "data": {},
+  "APIs": [
+    {
+      "id": "E61AE3F6-43CF-449E-AC54-0090309591B2",
+      "uri": "alipay.mrchservbase.mrchpoint.view.query",
+      "type": "rpc",
+      "method": "",
+      "remark": "",
+      "params": {}
+    },
+    {
+      "id": "90C6AF5A-4B58-4749-BEDF-B2FF6EE9EED8",
+      "uri": "alipay.mrchservbase.mrchpoint.item.exchange.order.submit",
+      "type": "rpc",
+      "method": "",
+      "remark": "",
+      "params": {}
+    }
+  ]
+}

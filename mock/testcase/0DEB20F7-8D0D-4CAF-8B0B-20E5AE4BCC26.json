@@ -1,0 +1,10 @@
+{
+  "id": "0DEB20F7-8D0D-4CAF-8B0B-20E5AE4BCC26",
+  "name": "商家分层运营第1期-获取商家等级信息-异常",
+  "remark": "",
+  "data": {
+    "success": false,
+    "errorMsg": "系统繁忙"
+  },
+  "api": "C0EF4F63-FC55-4801-A643-A157CBD29D72"
+}

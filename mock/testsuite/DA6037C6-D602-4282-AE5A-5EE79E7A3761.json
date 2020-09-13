@@ -1,0 +1,57 @@
+{
+  "id": "DA6037C6-D602-4282-AE5A-5EE79E7A3761",
+  "name": "商家分层1期-兑换记录页-上拉加载",
+  "remark": "点击跳转详情",
+  "apis": [
+    "E61AE3F6-43CF-449E-AC54-0090309591B2",
+    "E27BB4E4-83E9-4643-8DF5-C11D8BDCCF9D"
+  ],
+  "apiDataRules": [
+    "40D74AFB-666B-4A24-9CA5-BEA7483B27C0",
+    "41B70556-FDF4-4410-AEB0-1E5083D47B49"
+  ],
+  "onActive": "session.contextType = 'EXCHANGE_LIST_DATA'",
+  "onDeactive": "",
+  "isDefault": false,
+  "data": {},
+  "APIs": [
+    {
+      "id": "E61AE3F6-43CF-449E-AC54-0090309591B2",
+      "uri": "alipay.mrchservbase.mrchpoint.view.query",
+      "type": "rpc",
+      "method": "",
+      "remark": "",
+      "params": {}
+    },
+    {
+      "id": "E27BB4E4-83E9-4643-8DF5-C11D8BDCCF9D",
+      "uri": "alipay.mrchservbase.mrchpoint.account",
+      "type": "rpc",
+      "method": "",
+      "remark": "",
+      "params": {}
+    }
+  ],
+  "ApiDataRules": [
+    {
+      "id": "40D74AFB-666B-4A24-9CA5-BEA7483B27C0",
+      "api": "E27BB4E4-83E9-4643-8DF5-C11D8BDCCF9D",
+      "remark": "商家分层运营第1期-积分余额\n",
+      "mode": "testcase",
+      "data": "80CCADEE-B8D3-4860-87E3-9B5CF7627714",
+      "priority": 1,
+      "disabled": false,
+      "ttl": null
+    },
+    {
+      "id": "41B70556-FDF4-4410-AEB0-1E5083D47B49",
+      "api": "E61AE3F6-43CF-449E-AC54-0090309591B2",
+      "remark": "商家分层1期-view.query",
+      "mode": "func",
+      "data": "const { compId = '', extInfo = {} } = request.body\nconst { pageNum = 1 } = extInfo;\nlet { contextType = '' } = session;\nconst caseMap = {\n    ERR: 'BA04450C-159C-44DB-A33C-BAAF901A3A7F', // 通用异常\n    MRCH_POINT_MALL: '4DEDFE8C-EB3D-4D84-AFDB-336FCD471C25', // 商家等级\n    EXCHANGE_EMPTY: '15DF44CF-070D-45F4-BE30-4EE780BE6C52', // 兑换记录空数据\n    EXCHANGE_REQ_1: 'BA449600-CD9F-437E-B112-427CB7C5E5BB', // 兑换记录第一页\n    EXCHANGE_REQ_2: '447891E8-1716-4E5A-B426-E1E9D19B5C75', // 兑换记录第二页\n    MRCH_POINT_EXCHANGE_ORDER_DETAIL: 'ACB0BB07-7EF2-4B59-ABF7-8CEFD1826B64', // 兑换记录详情\n    PROFILE_CENTER: 'B2386322-ED4E-4716-8F3D-00FD8D4044C5' // 个人中心\n}\n\nif( !contextType ) return caseMap.ERR\n\nif(compId === 'MRCH_POINT_EXCHANGE_ORDER_LIST') {\n    if( contextType === 'EXCHANGE_EMPTY' ) return caseMap.EXCHANGE_EMPTY\n    if(contextType === 'EXCHANGE_LIST_DATA') {\n        return caseMap[`EXCHANGE_REQ_${pageNum}`] || caseMap.ERR\n    }\n    return caseMap.ERR\n}\n\nreturn caseMap[compId] || caseMap.ERR",
+      "priority": 1,
+      "disabled": false,
+      "ttl": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ACB0BB07-7EF2-4B59-ABF7-8CEFD1826B64",
+  "name": "商家分层运营第1期-订单详情",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": {
+      "itemAmount": "1",
+      "pointAmount": "100",
+      "itemUnit": "份",
+      "pointUnit": "积分",
+      "itemName": "小微商家纯积分",
+      "widgetName": "订单记录详情组件",
+      "gmtBizDt": "2020-04-13 13:46:46",
+      "orderId": "20200413016660011003672700028216",
+      "itemCode": "IT20200410247000006729",
+      "iconUrl": "http://mmtcdp.stable.alipay.net/wsdk/file?fileid=A*7l6QSKR-5SIAAAAAAAAAAABkATQnAQ&bz=promo_mall",
+      "orderDetailMsg": [
+        {
+          "name": "消耗积分",
+          "chargeInfo": "100"
+        },
+        {
+          "name": "兑换时间",
+          "chargeInfo": "2020-04-13 13:46:46"
+        },
+        {
+          "name": "订单号",
+          "chargeInfo": "20200413016660011003672700028216"
+        }
+      ],
+      "widgetCode": "MRCH_POINT_EXCHANGE_ORDER_DETAIL",
+      "status": "INIT"
+    }
+  },
+  "api": "E61AE3F6-43CF-449E-AC54-0090309591B2"
+}

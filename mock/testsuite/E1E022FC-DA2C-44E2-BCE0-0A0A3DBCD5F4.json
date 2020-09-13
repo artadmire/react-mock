@@ -1,0 +1,15 @@
+{
+  "id": "E1E022FC-DA2C-44E2-BCE0-0A0A3DBCD5F4",
+  "name": "商家分层运营第1期-权益详情",
+  "remark": "",
+  "apis": [
+    "E61AE3F6-43CF-449E-AC54-0090309591B2"
+  ],
+  "apiDataRules": [
+    "91AC99E0-9CAD-4DE4-BDC9-44F29D968AE9"
+  ],
+  "onActive": null,
+  "onDeactive": null,
+  "isDefault": false,
+  "data": {}
+}

@@ -1,0 +1,34 @@
+{
+  "id": "6CB23E2A-414D-4535-8A1D-256236118528",
+  "name": "商家分层运营第1期-订单兑换成功",
+  "remark": "",
+  "data": {
+    "data": {
+      "orderId": "8239892302320380",
+      "gmtBizDt": "2020.05.01 19:10:22",
+      "itemCode": "HB_10W_DISCOUNT",
+      "itemName": "20万店铺火宅险",
+      "itemAmount": "1",
+      "itemUnit": "份",
+      "iconUrl": "https://gw.alipayobjects.com/mdn/rms_04929e/afts/img/A*0AMgSr_Lkf8AAAAAAAAAAABkARQnAQ",
+      "status": "SUCCESS",
+      "orderDetailMsg": [
+        {
+          "name": "消耗积分",
+          "chargeInfo": "600"
+        },
+        {
+          "name": "兑换时间",
+          "chargeInfo": "2020.05.01 19:10:22"
+        },
+        {
+          "name": "订单号",
+          "chargeInfo": "8239892302320380"
+        }
+      ],
+      "actionUrl": "https://www.baidu.com"
+    },
+    "success": true
+  },
+  "api": "E61AE3F6-43CF-449E-AC54-0090309591B2"
+}

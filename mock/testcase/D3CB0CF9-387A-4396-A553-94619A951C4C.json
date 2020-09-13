@@ -1,0 +1,53 @@
+{
+  "id": "D3CB0CF9-387A-4396-A553-94619A951C4C",
+  "name": "收钱有奖模块",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": {
+      "success": true,
+      "errorCode": "",
+      "content": {
+        "actionLinkUrl": "alipays://platformapi/startapp?appId=20000123&chInfo=sanxuanyi",
+        "actionText": "去收钱",
+        "contentPrefix": "每向",
+        "contentSuffix": "顾客收钱都可领奖励",
+        "title": "无奖励",
+        "guide": {
+          "benefitInstanceIds": [
+            {
+              "code": "TCO_FREE_CASH_DRAW_QUOTA",
+              "title": "免费提现额度",
+              "actionLinkUrl": "",
+              "benefitType": "accum",
+              "viewUrl": "https://gw.alipayobjects.com/zos/basement_prod/50c44115-e592-43bb-aa91-d8d137633d96.svg"
+            },
+            {
+              "code": "TCO_ANT_POINTS",
+              "title": "支付宝积分",
+              "actionLinkUrl": "",
+              "benefitType": "once",
+              "viewUrl": "https://gw.alipayobjects.com/zos/basement_prod/f5aaa64f-f5a8-4f56-b7ad-37ef32290eff.svg"
+            },
+            {
+              "code": "TCO_HEALTH_EXPERIENCE_AMOUNT_6",
+              "title": "健康金",
+              "actionLinkUrl": "",
+              "benefitType": "accum",
+              "viewUrl": "https://gw.alipayobjects.com/zos/basement_prod/9d7f8fd9-ba62-4e4c-9d78-e1b00afcfe1a.svg"
+            }
+          ],
+          "title": "完成收钱任务后，随机选取以下奖励"
+        },
+        "contentValue": "1位",
+        "subContent": "收钱码收钱奖励任你选，每天可领"
+      },
+      "errorMsg": "",
+      "scene": "noQualifiedGuide"
+    },
+    "errorCode": "",
+    "errorMsg": "",
+    "traceId": "0b4854ff15853997359135769e3fa5"
+  },
+  "api": "3B01D969-AEFB-46EA-834D-D856430DEA0F"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CAA3F455-63EE-4B16-A540-FA044C45457C",
+  "name": "商家分层运营第1期-权益详情-只显示元-轮播图多张以及角标不存在",
+  "remark": "",
+  "apis": [
+    "E61AE3F6-43CF-449E-AC54-0090309591B2"
+  ],
+  "apiDataRules": [
+    "D01BA471-D68B-43BB-896F-A06F37F4C1DD"
+  ],
+  "onActive": null,
+  "onDeactive": null,
+  "isDefault": false,
+  "data": {}
+}

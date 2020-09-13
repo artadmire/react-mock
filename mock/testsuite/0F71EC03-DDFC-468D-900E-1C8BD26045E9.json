@@ -1,0 +1,19 @@
+{
+  "id": "0F71EC03-DDFC-468D-900E-1C8BD26045E9",
+  "name": "商家等级首页-等级接口异常4",
+  "remark": "",
+  "apis": [
+    "5A2D8912-5499-4064-A039-78416C2A22F8",
+    "C0EF4F63-FC55-4801-A643-A157CBD29D72",
+    "E61AE3F6-43CF-449E-AC54-0090309591B2"
+  ],
+  "apiDataRules": [
+    "9BC345AF-0E8E-42F7-BB18-0454CE90255E",
+    "D24B4DDE-BC1B-4182-B284-8D63D7A15A54",
+    "3551D706-0028-41F6-9541-6A12B8AE6D05"
+  ],
+  "onActive": null,
+  "onDeactive": null,
+  "isDefault": false,
+  "data": {}
+}

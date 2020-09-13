@@ -1,0 +1,8 @@
+{
+  "id": "3B01D969-AEFB-46EA-834D-D856430DEA0F",
+  "uri": "alipay.merchant.activitycenter.activity.tco.query",
+  "type": "rpc",
+  "method": "",
+  "remark": "收钱有奖",
+  "params": {}
+}

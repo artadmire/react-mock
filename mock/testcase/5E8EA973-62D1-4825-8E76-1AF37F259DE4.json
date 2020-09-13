@@ -1,0 +1,71 @@
+{
+  "id": "5E8EA973-62D1-4825-8E76-1AF37F259DE4",
+  "name": "热门活动推荐",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": [
+      {
+        "imageIcon": "https://gw.alipayobjects.com/zos/rmsportal/MBrRXEbVpiAppKNpIZiG.png",
+        "showtime": "2020-03-28 20:48:56",
+        "termId": "thrivingBusinessQualification",
+        "transitionUrl": "https://air.1688.com/apps/alim/star-conquerors-hysc/spa-alipay.html?enableWK=YES&tracelog=hysc_hdzx&fromkv=hysc:hdzx",
+        "activityCode": "thrivingBusinessQualification",
+        "mainTitle": "进货红包 天天抢",
+        "manualOrder": 99,
+        "rank": "1",
+        "subheading": "收钱就有机会抢",
+        "userId": "2088402530532464",
+        "mainImage": "https://gw.alipayobjects.com/mdn/iot_box_me/afts/img/A*QEUPT6Q6SyIAAAAAAAAAAABkARQnAQ",
+        "sessionId": "e10d5681-cdec-4b94-a550-744ba558f58c",
+        "activityServiceCode": "justRecommendService"
+      },
+      {
+        "imageIcon": "https://gw.alipayobjects.com/mdn/rms_c5b928/afts/img/A*a_E4RrDNa-IAAAAAAAAAAABkARQnAQ",
+        "showtime": "2020-03-28 20:48:56",
+        "termId": "drawEveryDay",
+        "transitionUrl": "alipays://platformapi/startapp?appId=2018103161898599&chInfo=sqyj&page=pages%2Fhome%2Fhome%3FtargetRegionId%3DR002019033000007896",
+        "activityCode": "drawEveryDay",
+        "mainTitle": "天天抽奖",
+        "rank": "2",
+        "subheading": "天天抽奖",
+        "userId": "2088402530532464",
+        "mainImage": "https://gw.alipayobjects.com/mdn/rms_c5b928/afts/img/A*a_E4RrDNa-IAAAAAAAAAAABkARQnAQ",
+        "sessionId": "e10d5681-cdec-4b94-a550-744ba558f58c",
+        "activityServiceCode": "justRecommendService"
+      },
+      {
+        "imageIcon": "https://gw.alipayobjects.com/zos/rmsportal/gGsTxtavwFYUARSEvmnm.png",
+        "showtime": "2020-03-28 20:48:56",
+        "termId": "p2pTransCodeInviteOther",
+        "transitionUrl": "https://render.alipay.com/p/f/fd-jipf3gil/pages/invitation/index.html?chInfo=ch_merchant_center_p2p_transfer",
+        "activityCode": "p2pTransCodeInviteOther",
+        "mainTitle": "推荐商家最高奖240元",
+        "rank": "3",
+        "subheading": "10秒完成推荐",
+        "userId": "2088402530532464",
+        "mainImage": "https://gw.alipayobjects.com/mdn/iot_box_me/afts/img/A*pIrPS6jmW1AAAAAAAAAAAABkARQnAQ",
+        "sessionId": "e10d5681-cdec-4b94-a550-744ba558f58c",
+        "activityServiceCode": "justRecommendService"
+      },
+      {
+        "imageIcon": "https://gw.alipayobjects.com/mdn/afts/img/A*FiX5QJsh7vEAAAAAAAAAAABjAQAAAQ/original?bz=service_merchant",
+        "showtime": "2020-03-28 20:48:56",
+        "termId": "buyRedPacketQrCode",
+        "transitionUrl": "https://render.alipay.com/p/f/fd-jp2n9a17/pages/home/indexfdwsihkovq.html",
+        "activityCode": "buyRedPacketQrCode",
+        "mainTitle": "1分钟速成的赚钱方法",
+        "rank": "4",
+        "subheading": "赚钱红包码，人人可赚",
+        "userId": "2088402530532464",
+        "mainImage": "https://gw.alipayobjects.com/mdn/iot_box_me/afts/img/A*ydkfSbFwcOAAAAAAAAAAAABkARQnAQ",
+        "sessionId": "e10d5681-cdec-4b94-a550-744ba558f58c",
+        "activityServiceCode": "justRecommendService"
+      }
+    ],
+    "errorCode": "",
+    "errorMsg": "",
+    "traceId": "0b4854ff15853997362075814e3fa5"
+  },
+  "api": "54FA843A-2927-476C-97AC-2B9C17729109"
+}

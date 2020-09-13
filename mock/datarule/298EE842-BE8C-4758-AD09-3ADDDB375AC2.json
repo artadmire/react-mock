@@ -1,0 +1,10 @@
+{
+  "id": "298EE842-BE8C-4758-AD09-3ADDDB375AC2",
+  "api": "6660992D-DB01-46DA-8A83-79E5434291E6",
+  "remark": "商家分层运营第1期-我的积分\n",
+  "mode": "func",
+  "data": "const { type } = request.body;\nswitch(type) {\n    case 'all':\n        return '51C2D799-E0BC-4D22-878D-A4EE148DE9AB';\n    case 'use':\n        return 'E6246871-75AE-47FE-AE1F-84E5A212D904';\n    case 'grant':\n        return '99D491CE-8B39-4BE6-BA71-D02E345574A8';\n    default:\n        return '51C2D799-E0BC-4D22-878D-A4EE148DE9AB';\n}",
+  "priority": 1,
+  "disabled": false,
+  "ttl": null
+}

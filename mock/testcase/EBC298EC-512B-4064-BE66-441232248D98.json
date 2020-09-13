@@ -1,0 +1,37 @@
+{
+  "id": "EBC298EC-512B-4064-BE66-441232248D98",
+  "name": "商家分层运营第1期-积分兑换确认页",
+  "remark": "",
+  "data": {
+    "data": {
+      "itemCode": "HB_10W_DISCOUNT",
+      "token": "123456",
+      "itemName": "收钱码贴纸套组",
+      "itemAmount": "1",
+      "itemUnit": "份",
+      "iconUrl": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*vngCTIPrISkAAAAAAAAAAABkARQnAQ",
+      "discountMsg": [
+        {
+          "name": "积分⽀付",
+          "chargeInfo": "50000积分"
+        },
+        {
+          "name": "现⾦⽀付",
+          "chargeInfo": "1.00元"
+        },
+        {
+          "name": "⽩金商家优惠",
+          "chargeInfo": "-10000积分"
+        }
+      ],
+      "totalDiscountMsg": {
+        "name": "合计",
+        "chargeInfo": "40000积分 + 1元"
+      }
+    },
+    "success": true,
+    "errorMsg": "",
+    "errorCode": ""
+  },
+  "api": "E61AE3F6-43CF-449E-AC54-0090309591B2"
+}

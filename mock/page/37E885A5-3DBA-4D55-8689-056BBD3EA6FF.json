@@ -1,0 +1,11 @@
+{
+  "id": "37E885A5-3DBA-4D55-8689-056BBD3EA6FF",
+  "name": "思考的卡",
+  "path": "home.html",
+  "remark": "",
+  "testSuites": [
+    "44A416DD-BDBF-4040-A413-DB0C96A92E0A",
+    "373B3345-976F-480C-B459-35A933E17870",
+    "5BC9D5BE-AC4F-4D0C-A8B9-AC6E237FD600"
+  ]
+}

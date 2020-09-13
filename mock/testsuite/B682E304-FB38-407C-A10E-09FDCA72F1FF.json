@@ -1,0 +1,19 @@
+{
+  "id": "B682E304-FB38-407C-A10E-09FDCA72F1FF",
+  "name": "商家等级首页",
+  "remark": "",
+  "apis": [
+    "5A2D8912-5499-4064-A039-78416C2A22F8",
+    "C0EF4F63-FC55-4801-A643-A157CBD29D72",
+    "E61AE3F6-43CF-449E-AC54-0090309591B2"
+  ],
+  "apiDataRules": [
+    "9BC345AF-0E8E-42F7-BB18-0454CE90255E",
+    "314BCDEE-A8F0-4B2A-A0D9-2059B4973581",
+    "3551D706-0028-41F6-9541-6A12B8AE6D05"
+  ],
+  "onActive": "",
+  "onDeactive": "",
+  "isDefault": false,
+  "data": {}
+}

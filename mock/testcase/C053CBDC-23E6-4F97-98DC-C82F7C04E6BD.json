@@ -1,0 +1,97 @@
+{
+  "id": "C053CBDC-23E6-4F97-98DC-C82F7C04E6BD",
+  "name": "任务有奖",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": {
+      "taskWidgets": [
+        {
+          "indicator": {
+            "diff": 0,
+            "current": 0,
+            "finished": true,
+            "target": 0
+          },
+          "widgetName": "任务组件",
+          "mainTitle": "天天收钱天天领红包",
+          "status": "PENDING",
+          "traceInfo": {
+            "taskCode": "TCO_REACH_TASK_DAILY_1212",
+            "taskName": "天天收钱天天领红包",
+            "traceId": "0b4854ff15853997359255772e3fa5",
+            "activityCode": "dailyTask",
+            "taskStatus": "PENDING"
+          },
+          "actionWidget": {
+            "action": "POP_UP",
+            "widgetName": "行为组件",
+            "actionType": "SET_TASK",
+            "params": {
+              "api": "xxx",
+              "url": "/pages/home/index",
+              "prizeType": "xxx"
+            },
+            "widgetCode": "ACTION",
+            "actionText": "设目标"
+          },
+          "taskCode": "TCO_REACH_TASK_DAILY_1212",
+          "theme": "RED",
+          "taskTargetWidgets": [
+            {
+              "traceInfo": {
+                "prizeUnit": "个",
+                "traceId": "0b4854ff15853997359255772e3fa5",
+                "prizeAmount": "15",
+                "taskName": "天天收钱天天领红包",
+                "prizeId": "AC_TASK_191212_ANT_POINTS",
+                "taskCode": "TCO_REACH_TASK_DAILY_1212",
+                "activityCode": "dailyTask",
+                "taskStatus": "PENDING"
+              },
+              "widgetName": "任务目标算法推荐组件",
+              "id": "class_recommend_1",
+              "iconUrl": "https://gw.alipayobjects.com/mdn/rms_04929e/afts/img/A*IJnaTrxTYSoAAAAAAAAAAABkARQnAQ",
+              "title": "今日向#<red>1</red>#个顾客收钱",
+              "jumpUrl": "https://render.alipay.com/p/c/k3v3030f",
+              "widgetCode": "TASK_TARGET_RECOMMEND",
+              "subTitle": "支付宝积分15个"
+            },
+            {
+              "traceInfo": {
+                "prizeUnit": "个",
+                "traceId": "0b4854ff15853997359255772e3fa5",
+                "prizeAmount": "1",
+                "taskName": "天天收钱天天领红包",
+                "prizeId": "AC_TASK_191212_RedPacket_Cert",
+                "taskCode": "TCO_REACH_TASK_DAILY_1212",
+                "activityCode": "dailyTask",
+                "taskStatus": "PENDING"
+              },
+              "widgetName": "任务目标算法推荐组件",
+              "id": "class_recommend_2",
+              "iconUrl": "https://gw.alipayobjects.com/mdn/rms_04929e/afts/img/A*u-YKQL20gYEAAAAAAAAAAABkARQnAQ",
+              "title": "今日向#<red>3</red>#个顾客收钱",
+              "jumpUrl": "https://render.alipay.com/p/c/k3v395a4",
+              "widgetCode": "TASK_TARGET_RECOMMEND",
+              "subTitle": "开工红包1个"
+            }
+          ],
+          "widgetCode": "TASK",
+          "subTitle": "今日 23:59 前完成任务可以领奖励"
+        }
+      ],
+      "widgetName": "活动任务组件",
+      "title": "任务有奖",
+      "bizWidget": {
+        "taskCode": "TCO_REACH_TASK_DAILY",
+        "widgetName": "任务目标领取弹层组件",
+        "widgetCode": "TASK_TARGET_POP_UP",
+        "popUpType": "MANUAL"
+      },
+      "activityCode": "dailyTask",
+      "widgetCode": "TASK_ACTIVITY"
+    }
+  },
+  "api": "0393497D-B79E-4F87-8C5A-2F9FAF06435D"
+}

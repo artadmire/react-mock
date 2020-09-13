@@ -1,0 +1,28 @@
+{
+  "id": "0960FFAA-E140-4D4E-98C9-1B58BFAECEC1",
+  "name": "累计赏金与免费提现额度",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": {
+      "benefits": [
+        {
+          "amount": "0.00",
+          "code": "MONEY",
+          "name": "累计赏金",
+          "unit": "元"
+        },
+        {
+          "amount": "0.00",
+          "code": "FREE_CASH_DRAW_QUOTA",
+          "name": "免费提现额度",
+          "unit": "元"
+        }
+      ]
+    },
+    "errorCode": "",
+    "errorMsg": "",
+    "traceId": "0b4854ff15853997359145770e3fa5"
+  },
+  "api": "51CAEE34-67FD-470B-8306-C818238E902E"
+}

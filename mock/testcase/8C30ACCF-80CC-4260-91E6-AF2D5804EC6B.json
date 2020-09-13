@@ -1,0 +1,11 @@
+{
+  "id": "8C30ACCF-80CC-4260-91E6-AF2D5804EC6B",
+  "name": "商家分层运营第1期-兑换创建订单失败",
+  "remark": "",
+  "data": {
+    "success": false,
+    "errorCode": "EXCHANGE_ORDER_CREATE_FAILED",
+    "errorMsg": "商品兑换订单创建失败"
+  },
+  "api": "90C6AF5A-4B58-4749-BEDF-B2FF6EE9EED8"
+}

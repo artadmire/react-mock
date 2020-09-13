@@ -1,0 +1,285 @@
+{
+  "id": "4DEDFE8C-EB3D-4D84-AFDB-336FCD471C25",
+  "name": "商家分层1期-商家等级view",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": {
+      "activityWidget": [
+        {
+          "subTitle": "顾客付款你得奖",
+          "widgetName": "活动卡片组件",
+          "bgUrl": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*QngISqxIy3wAAAAAAAAAAABkARQnAQ",
+          "title": "卡片测试name",
+          "actionUrl": "www.alipay.com",
+          "bigBgUrl": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*-u9kQqhTRasAAAAAAAAAAABkARQnAQ",
+          "widgetCode": "MRCH_ACT_CARD",
+          "actionTitle": "立即参加>"
+        },
+        {
+          "subTitle": "顾客付款你得奖",
+          "widgetName": "活动卡片组件",
+          "bgUrl": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*QngISqxIy3wAAAAAAAAAAABkARQnAQ",
+          "title": "周六人气日",
+          "actionUrl": "www.alipay.com",
+          "bigBgUrl": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*-u9kQqhTRasAAAAAAAAAAABkARQnAQ",
+          "widgetCode": "MRCH_ACT_CARD",
+          "actionTitle": "立即参加>"
+        }
+      ],
+      "widgetName": "商家积分兑换组件",
+      "pointWidget": {
+        "widgetName": "商家积分组件",
+        "title": "当前积分",
+        "totalPoint": "97698",
+        "widgetCode": "MRCH_POINT_WIDGET",
+        "url": "/pages/myPoints/index",
+        "iconUrl": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*zXVfT5UImNwAAAAAAAAAAABkARQnAQ"
+      },
+      "pointMallWidgets": {
+        "widgetName": "积分商城组件",
+        "categoryList": [
+          {
+            "code": "RECOMMEND",
+            "title": "猜你喜欢",
+            "itemList": [
+              {
+                "privilegeTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*OL-yQoVZVCYAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*KuTEQo2Bk8QAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "人气商家V1",
+                    "priority": 1
+                  }
+                ],
+                "iconUrl": "http://mmtcdp.stable.alipay.net/wsdk/file?fileid=A*5pvsTaDA5C4AAAAAAAAAAABkATQnAQ&bz=promo_mall",
+                "itemName": "云岑测试X现金收款账号测试",
+                "jumpUrl": "/pages/equityDetail/index?code=IT20200411000200029924",
+                "itemCode": "IT20200411000200029924",
+                "originalPrice": "1元",
+                "activityTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*5iFjRaa5OcQAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*PcQiSYr0a-wAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "生日特价",
+                    "priority": 1
+                  },
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*lIRHSYmPUoMAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*3qiZT6EhmAkAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "限时秒杀",
+                    "priority": 2
+                  }
+                ],
+                "itemUnit": "份",
+                "price": "1积分+0.8元",
+                "soldItemAmount": 16
+              }
+            ],
+            "priority": 0
+          },
+          {
+            "code": "MATERIALS",
+            "itemListTitle": "张贴物料方便收钱",
+            "title": "物料",
+            "itemList": [
+              {
+                "privilegeTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*OL-yQoVZVCYAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*KuTEQo2Bk8QAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "人气商家V1",
+                    "priority": 1
+                  }
+                ],
+                "iconUrl": "http://mmtcdp.stable.alipay.net/wsdk/file?fileid=A*1rS7R5mswWEAAAAAAAAAAABkATQnAQ&bz=promo_mall",
+                "itemName": "物料测试name",
+                "jumpUrl": "/pages/equityDetail/index?code=IT20200409000400029816",
+                "itemCode": "IT20200409000400029816",
+                "originalPrice": "0.01元",
+                "activityTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*lIRHSYmPUoMAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*3qiZT6EhmAkAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "限时秒杀",
+                    "priority": 1
+                  },
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*5iFjRaa5OcQAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*PcQiSYr0a-wAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "生日特价",
+                    "priority": 2
+                  }
+                ],
+                "itemUnit": "份",
+                "price": "2积分",
+                "soldItemAmount": 9
+              }
+            ],
+            "priority": 10
+          },
+          {
+            "code": "HUABEI",
+            "itemListTitle": "花呗花呗花呗",
+            "title": "花呗",
+            "itemList": [
+              {
+                "privilegeTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*OL-yQoVZVCYAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*KuTEQo2Bk8QAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "人气商家V1",
+                    "priority": 1
+                  }
+                ],
+                "iconUrl": "http://mmtcdp.stable.alipay.net/wsdk/file?fileid=A*7l6QSKR-5SIAAAAAAAAAAABkATQnAQ&bz=promo_mall",
+                "itemName": "小微商家纯积分",
+                "jumpUrl": "/pages/equityDetail/index?code=IT20200410247000006729",
+                "itemCode": "IT20200410247000006729",
+                "originalPrice": "100元",
+                "activityTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*lIRHSYmPUoMAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*3qiZT6EhmAkAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "限时秒杀",
+                    "priority": 1
+                  },
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*5iFjRaa5OcQAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*PcQiSYr0a-wAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "生日特价",
+                    "priority": 2
+                  }
+                ],
+                "itemUnit": "份",
+                "price": "100积分",
+                "soldItemAmount": 29
+              }
+            ],
+            "priority": 20
+          },
+          {
+            "code": "INSURANCE",
+            "itemListTitle": "保险保险保险",
+            "title": "保险",
+            "itemList": [
+              {
+                "privilegeTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*OL-yQoVZVCYAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*KuTEQo2Bk8QAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "人气商家V1",
+                    "priority": 1
+                  }
+                ],
+                "iconUrl": "http://mmtcdp.stable.alipay.net/wsdk/file?fileid=A*DimkRI7cUugAAAAAAAAAAABkATQnAQ&bz=promo_mall",
+                "itemName": "小微商家积分现金",
+                "jumpUrl": "/pages/equityDetail/index?code=IT20200408000000029654",
+                "itemCode": "IT20200408000000029654",
+                "originalPrice": "0.05元",
+                "activityTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*lIRHSYmPUoMAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*3qiZT6EhmAkAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "限时秒杀",
+                    "priority": 1
+                  },
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*5iFjRaa5OcQAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*PcQiSYr0a-wAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "生日特价",
+                    "priority": 2
+                  }
+                ],
+                "itemUnit": "份",
+                "price": "2积分+0.02元",
+                "soldItemAmount": 7
+              }
+            ],
+            "priority": 30
+          },
+          {
+            "code": "LOAN",
+            "itemListTitle": "贷款贷款贷款",
+            "title": "贷款",
+            "itemList": [
+              {
+                "privilegeTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*OL-yQoVZVCYAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*KuTEQo2Bk8QAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "人气商家V1",
+                    "priority": 1
+                  }
+                ],
+                "iconUrl": "http://mmtcdp.stable.alipay.net/wsdk/file?fileid=A*IcdhRKVvcCgAAAAAAAAAAABkATQnAQ&bz=promo_mall",
+                "itemName": "云岑测试002",
+                "jumpUrl": "/pages/equityDetail/index?code=IT20200413000300030073",
+                "itemCode": "IT20200413000300030073",
+                "originalPrice": "1.23元",
+                "activityTags": [
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*lIRHSYmPUoMAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*3qiZT6EhmAkAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "限时秒杀",
+                    "priority": 1
+                  },
+                  {
+                    "iconMap": {
+                      "itemListIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*5iFjRaa5OcQAAAAAAAAAAABkARQnAQ",
+                      "itemDetailIcon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*PcQiSYr0a-wAAAAAAAAAAABkARQnAQ"
+                    },
+                    "name": "生日特价",
+                    "priority": 2
+                  }
+                ],
+                "itemUnit": "份",
+                "price": "2积分+0.59元",
+                "soldItemAmount": 1
+              }
+            ],
+            "priority": 40
+          }
+        ],
+        "traceInfo": {
+          "traceId": ""
+        },
+        "widgetCode": "MRCH_POINT_MALL_WIDGET"
+      },
+      "title": "积分兑好礼",
+      "widgetCode": "MRCH_POINT_MALL",
+      "traceInfo": {
+        "traceId": ""
+      }
+    }
+  },
+  "api": "E61AE3F6-43CF-449E-AC54-0090309591B2"
+}

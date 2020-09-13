@@ -1,0 +1,57 @@
+{
+  "id": "669A4A7B-F8E8-4553-8E58-2E1D98957AFF",
+  "name": "商家分层1期-商家等级-等级查询异常",
+  "remark": "",
+  "apis": [
+    "E61AE3F6-43CF-449E-AC54-0090309591B2",
+    "C0EF4F63-FC55-4801-A643-A157CBD29D72"
+  ],
+  "apiDataRules": [
+    "7E9E0572-71CB-4817-886D-751424186BEB",
+    "41B70556-FDF4-4410-AEB0-1E5083D47B49"
+  ],
+  "onActive": "session.contextType = false",
+  "onDeactive": "",
+  "isDefault": false,
+  "data": {},
+  "APIs": [
+    {
+      "id": "E61AE3F6-43CF-449E-AC54-0090309591B2",
+      "uri": "alipay.mrchservbase.mrchpoint.view.query",
+      "type": "rpc",
+      "method": "",
+      "remark": "",
+      "params": {}
+    },
+    {
+      "id": "C0EF4F63-FC55-4801-A643-A157CBD29D72",
+      "uri": "alipay.mrchservbase.mrchlevel.level.query",
+      "type": "rpc",
+      "method": "",
+      "remark": "",
+      "params": {}
+    }
+  ],
+  "ApiDataRules": [
+    {
+      "id": "7E9E0572-71CB-4817-886D-751424186BEB",
+      "api": "C0EF4F63-FC55-4801-A643-A157CBD29D72",
+      "remark": "商家分层1期-商家等级-等级查询异常\n",
+      "mode": "testcase",
+      "data": "F5F6BB7D-9B3B-47EE-B404-9F410FCFE688",
+      "priority": 1,
+      "disabled": false,
+      "ttl": null
+    },
+    {
+      "id": "41B70556-FDF4-4410-AEB0-1E5083D47B49",
+      "api": "E61AE3F6-43CF-449E-AC54-0090309591B2",
+      "remark": "商家分层1期-view.query",
+      "mode": "func",
+      "data": "const { compId = '', extInfo = {} } = request.body\nconst { pageNum = 1 } = extInfo;\nlet { contextType = '' } = session;\nconst caseMap = {\n    ERR: 'BA04450C-159C-44DB-A33C-BAAF901A3A7F', // 通用异常\n    MRCH_POINT_MALL: '4DEDFE8C-EB3D-4D84-AFDB-336FCD471C25', // 商家等级\n    EXCHANGE_EMPTY: '15DF44CF-070D-45F4-BE30-4EE780BE6C52', // 兑换记录空数据\n    EXCHANGE_REQ_1: 'BA449600-CD9F-437E-B112-427CB7C5E5BB', // 兑换记录第一页\n    EXCHANGE_REQ_2: '447891E8-1716-4E5A-B426-E1E9D19B5C75', // 兑换记录第二页\n    MRCH_POINT_EXCHANGE_ORDER_DETAIL: 'ACB0BB07-7EF2-4B59-ABF7-8CEFD1826B64', // 兑换记录详情\n    PROFILE_CENTER: 'B2386322-ED4E-4716-8F3D-00FD8D4044C5' // 个人中心\n}\n\nif( !contextType ) return caseMap.ERR\n\nif(compId === 'MRCH_POINT_EXCHANGE_ORDER_LIST') {\n    if( contextType === 'EXCHANGE_EMPTY' ) return caseMap.EXCHANGE_EMPTY\n    if(contextType === 'EXCHANGE_LIST_DATA') {\n        return caseMap[`EXCHANGE_REQ_${pageNum}`] || caseMap.ERR\n    }\n    return caseMap.ERR\n}\n\nreturn caseMap[compId] || caseMap.ERR",
+      "priority": 1,
+      "disabled": false,
+      "ttl": null
+    }
+  ]
+}

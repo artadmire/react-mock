@@ -1,0 +1,18 @@
+{
+  "id": "8A7A4FDB-5835-48BA-B3E8-F828B312F61F",
+  "name": "公告信息",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": [
+      {
+        "type": "notRedDot",
+        "value": "查看我的全部权益",
+        "notice": ""
+      }
+    ],
+    "errorCode": "",
+    "errorMsg": ""
+  },
+  "api": "A3776A91-5C0D-4438-980C-21B65F0B305A"
+}

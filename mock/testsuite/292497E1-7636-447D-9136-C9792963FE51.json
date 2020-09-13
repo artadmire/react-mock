@@ -1,0 +1,37 @@
+{
+  "id": "292497E1-7636-447D-9136-C9792963FE51",
+  "name": "我的积分-积分接口正常-积分列表返回false",
+  "remark": "",
+  "apis": [
+    "6660992D-DB01-46DA-8A83-79E5434291E6"
+  ],
+  "apiDataRules": [
+    "5B48B007-221D-4FA3-9909-3B3585230FCC"
+  ],
+  "onActive": null,
+  "onDeactive": null,
+  "isDefault": false,
+  "data": {},
+  "APIs": [
+    {
+      "id": "6660992D-DB01-46DA-8A83-79E5434291E6",
+      "uri": "alipay.mrchservbase.mrchpoint.record.list",
+      "type": "rpc",
+      "method": "",
+      "remark": "",
+      "params": {}
+    }
+  ],
+  "ApiDataRules": [
+    {
+      "id": "5B48B007-221D-4FA3-9909-3B3585230FCC",
+      "api": "6660992D-DB01-46DA-8A83-79E5434291E6",
+      "remark": "我的积分-积分列表返回一条数据\n",
+      "mode": "testcase",
+      "data": "3D6EC868-AA99-4FD1-B862-B7CEE1E3A903",
+      "priority": 1,
+      "disabled": false,
+      "ttl": 99999996
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "61C8DAB9-840F-44EE-B5B8-FFACD0C5B91D",
+  "name": "商家分层1期-兑换记录页-点击刷新",
+  "remark": "列表空数据，积分异常",
+  "apis": [
+    "E27BB4E4-83E9-4643-8DF5-C11D8BDCCF9D",
+    "E61AE3F6-43CF-449E-AC54-0090309591B2"
+  ],
+  "apiDataRules": [
+    "7C527906-2E80-4F6E-A459-C7F225021967",
+    "41B70556-FDF4-4410-AEB0-1E5083D47B49"
+  ],
+  "onActive": "session.contextType = 'EXCHANGE_EMPTY'",
+  "onDeactive": "",
+  "isDefault": false,
+  "data": {}
+}

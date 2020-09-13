@@ -1,0 +1,15 @@
+{
+  "id": "998367F9-5FA1-4C38-8923-5DFD1C11DCB3",
+  "name": "商家分层运营第1期-权益详情-只显示积分",
+  "remark": "",
+  "apis": [
+    "E61AE3F6-43CF-449E-AC54-0090309591B2"
+  ],
+  "apiDataRules": [
+    "C82A87F5-F1A7-4389-93FF-82FEDF9660A6"
+  ],
+  "onActive": null,
+  "onDeactive": null,
+  "isDefault": false,
+  "data": {}
+}

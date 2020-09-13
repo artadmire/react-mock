@@ -1,0 +1,19 @@
+{
+  "id": "83DD89FC-994E-4B5A-B91C-D7718F1410E2",
+  "name": "商家分层运营第1期-我的积分-积分列表返回false",
+  "remark": "",
+  "data": {
+    "data": {
+      "recordList": [],
+      "pageSize": "20",
+      "pageNum": "2",
+      "totalPages": "50",
+      "total": "100",
+      "hasNextPage": "true/false"
+    },
+    "errorCode": "",
+    "errorMsg": "",
+    "success": false
+  },
+  "api": "6660992D-DB01-46DA-8A83-79E5434291E6"
+}

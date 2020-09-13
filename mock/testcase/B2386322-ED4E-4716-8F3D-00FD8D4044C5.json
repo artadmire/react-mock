@@ -1,0 +1,67 @@
+{
+  "id": "B2386322-ED4E-4716-8F3D-00FD8D4044C5",
+  "name": "商家分层运营第1期-个人中心普通商家",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": {
+      "widgetName": "个人中心组件",
+      "title": "人气商家V1",
+      "icon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*io3_RIcL2wQAAAAAAAAAAABkARQnAQ",
+      "widgetCode": "PROFILE_CENTER",
+      "profileList": [
+        [
+          {
+            "code": "MY_LEVEL",
+            "subTitle": "人气商家V1",
+            "traceInfo": {
+              "traceId": "0b9fc25615865030068855074126230",
+              "MY_LEVEL": "V1"
+            },
+            "icon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*KAaMQowZOlUAAAAAAAAAAABkARQnAQ",
+            "title": "我的等级",
+            "url": "/pages/levelHome/index"
+          },
+          {
+            "code": "MY_POINT",
+            "subTitle": "99867分",
+            "traceInfo": {
+              "traceId": "0b9fc25615865030068855074126230",
+              "MY_LEVEL": "V1"
+            },
+            "icon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*LCuERLsWpNQAAAAAAAAAAABkARQnAQ",
+            "title": "我的积分",
+            "url": "/pages/myPoints/index"
+          }
+        ],
+        [
+          {
+            "code": "CUSTOMER_SERVICE",
+            "subTitle": "现在就联系小钻风",
+            "traceInfo": {
+              "traceId": "0b9fc25615865030068855074126230",
+              "MY_LEVEL": "V1"
+            },
+            "icon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*o8MARpG3R_QAAAAAAAAAAABkARQnAQ",
+            "title": "我的客服",
+            "url": "alipays://platformapi/startapp?appId=20000691&url=%2Fwww%2Fsrc%2Fxmada.html%3Fscene%3Dapp_msfwx_sqmsjhy"
+          }
+        ],
+        [
+          {
+            "code": "PAY_PRIZE",
+            "subTitle": "",
+            "traceInfo": {
+              "traceId": "0b9fc25615865030068855074126230",
+              "MY_LEVEL": "V1"
+            },
+            "icon": "https://gw.alipayobjects.com/mdn/rms_2f6540/afts/img/A*PYr0S4c10H4AAAAAAAAAAABkARQnAQ",
+            "title": "收钱有奖",
+            "url": "/pages/home/index"
+          }
+        ]
+      ]
+    }
+  },
+  "api": "E61AE3F6-43CF-449E-AC54-0090309591B2"
+}

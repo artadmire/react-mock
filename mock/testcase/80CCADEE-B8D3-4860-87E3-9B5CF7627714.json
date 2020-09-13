@@ -1,0 +1,15 @@
+{
+  "id": "80CCADEE-B8D3-4860-87E3-9B5CF7627714",
+  "name": "商家分层运营第1期-积分余额",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": {
+      "point": "8400",
+      "unit": "分"
+    },
+    "errorCode": "",
+    "errorMsg": ""
+  },
+  "api": "E27BB4E4-83E9-4643-8DF5-C11D8BDCCF9D"
+}

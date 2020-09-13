@@ -1,0 +1,20 @@
+{
+  "id": "15DF44CF-070D-45F4-BE30-4EE780BE6C52",
+  "name": "商家分层运营第1期-兑换记录无数据",
+  "remark": "",
+  "data": {
+    "data": {
+      "detailData": [],
+      "hasNextPage": true,
+      "pageNum": 1,
+      "pageSize": 20,
+      "summaryData": {
+        "totalAmount": 3,
+        "totalPageNum": 1,
+        "totalSize": 3
+      }
+    },
+    "success": true
+  },
+  "api": "E61AE3F6-43CF-449E-AC54-0090309591B2"
+}

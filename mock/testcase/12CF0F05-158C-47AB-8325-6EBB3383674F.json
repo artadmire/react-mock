@@ -1,0 +1,23 @@
+{
+  "id": "12CF0F05-158C-47AB-8325-6EBB3383674F",
+  "name": "商家分层运营第1期-公告",
+  "remark": "",
+  "data": {
+    "success": true,
+    "data": {
+      "widgetName": "商家消息通知详情查询组件",
+      "title": "通知信息",
+      "notifyList": [
+        {
+          "title": "8折积分已经上线啦,快来参与哟，多收钱优惠多多哦！！！"
+        },
+        {
+          "title": "快来查看"
+        }
+      ],
+      "widgetCode": "MRCH_LEVEL_NOTIFY",
+      "scene": "success"
+    }
+  },
+  "api": "5A2D8912-5499-4064-A039-78416C2A22F8"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0E2530CE-A5B1-4B65-B29A-4ED3C589B2A2",
+  "api": "alipay.mrchservbase.mrchpoint.account",
+  "remark": "商家分层运营第1期-我的积分-异常\n",
+  "mode": "testcase",
+  "data": "9E7DF2B1-EB58-4581-BF8D-276F8D6F6EA3",
+  "priority": 1,
+  "disabled": false,
+  "ttl": null
+}

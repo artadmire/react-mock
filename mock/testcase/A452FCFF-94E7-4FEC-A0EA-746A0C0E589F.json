@@ -1,0 +1,10 @@
+{
+  "id": "A452FCFF-94E7-4FEC-A0EA-746A0C0E589F",
+  "name": "商家分层运营第1期-权益详情异常",
+  "remark": "",
+  "data": {
+    "success": false,
+    "errorMsg": "网络异常"
+  },
+  "api": "E61AE3F6-43CF-449E-AC54-0090309591B2"
+}

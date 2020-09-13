@@ -1,0 +1,11 @@
+{
+  "id": "93F4539E-1DBB-445F-8857-69D83FB10A54",
+  "name": "查询商户等级",
+  "remark": "",
+  "data": {
+    "success": false,
+    "errorCode": "UNSPECIFIED",
+    "errorMsg": "InterfaceAccessException: 未匹配到商户等级:{\"inputBizExt\":{\"forthMonth\":\"1\",\"oubBizNo\":\"05de3e23-ee39-40c..."
+  },
+  "api": "67E281D5-EFC3-478A-85FE-F21A3BC833CD"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "80726B3C-737E-46CE-9E32-BD75BD67BB9F",
+  "name": "商家分层运营第1期-权益详情异常",
+  "remark": "",
+  "apis": [
+    "E61AE3F6-43CF-449E-AC54-0090309591B2"
+  ],
+  "apiDataRules": [
+    "7846B245-64D0-46A5-8FB6-D817837A23EF"
+  ],
+  "onActive": null,
+  "onDeactive": null,
+  "isDefault": false,
+  "data": {},
+  "APIs": [
+    {
+      "id": "E61AE3F6-43CF-449E-AC54-0090309591B2",
+      "uri": "alipay.mrchservbase.mrchpoint.view.query",
+      "type": "rpc",
+      "method": "",
+      "remark": "",
+      "params": {}
+    }
+  ],
+  "ApiDataRules": [
+    {
+      "id": "7846B245-64D0-46A5-8FB6-D817837A23EF",
+      "api": "E61AE3F6-43CF-449E-AC54-0090309591B2",
+      "remark": "alipay.mrchservbase.mrchpoint.view.query\n权益详情异常",
+      "mode": "testcase",
+      "data": "A452FCFF-94E7-4FEC-A0EA-746A0C0E589F",
+      "priority": 1,
+      "disabled": false,
+      "ttl": null
+    }
+  ]
+}
